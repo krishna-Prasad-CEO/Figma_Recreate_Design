@@ -1,73 +1,110 @@
-# React + TypeScript + Vite
+📱 Certo Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page for Certo built using React, TypeScript, and Tailwind CSS.
+This project showcases a clean UI with multiple sections including hero, features, testimonials, blog, and footer.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚡ Built with React + TypeScript
 
-## React Compiler
+🎨 Styled using Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📱 Fully responsive for all devices
 
-## Expanding the ESLint configuration
+💬 Testimonial section with star icons using lucide-react
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+📰 Dynamic blog section
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+🔐 Focused on modern security and privacy design themes
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+🛠️ Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+React (with Vite or CRA)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+TypeScript
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Tailwind CSS
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Lucide-react for icons
+
+📂 Folder Structure
+CertoLandingPage/
+│
+├── src/
+│   ├── components/
+│   │   └── CertoLandingPage.tsx
+│   ├── images/
+│   │   ├── logo.svg.png
+│   │   ├── home-header-2.png.png
+│   │   ├── android-dashboard-certo-2.png.png
+│   │   ├── ...
+│   ├── App.tsx
+│   ├── index.tsx
+│   └── styles/
+│       └── CertoLandingPage.css
+│
+├── public/
+│
+├── package.json
+├── tailwind.config.js
+├── tsconfig.json
+└── README.md
+
+⚙️ Installation & Setup
+
+Clone the Repository
+
+git clone 'This Repo'
+cd 'Main Src File'
+
+
+Install Dependencies
+
+npm install
+
+
+Start the Development Server
+
+npm run dev
+
+
+Open in Browser
+
+Visit → http://localhost:5173
+
+🧩 How to Add Images
+
+Place your images inside the /src/images/ directory.
+Then reference them using:
+
+import imageName from "../../images/example.png";
+
+<img src={imageName} alt="Example" />
+
+
+Avoid using relative paths like ../../images/example.png directly in src.
+
+🧠 Learnings
+
+This project demonstrates:
+
+Creating modular React components
+
+Using Tailwind for fast, utility-first styling
+
+Managing responsive layouts
+
+Combining static content with reusable JSX structures
+
+📸 Preview
+
+🧑‍💻 Author
+
+Krishna Prasad
+📍 Government College of Engineering, Salem
+💡 Passionate about Web Development, UI/UX, and Security Tools
+
+📝 License
+
+This project is open source and available under the MIT License
+.
