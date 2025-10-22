@@ -1,4 +1,3 @@
-import React from "react";
 import "./CertoLandingPage.css";
 import { Star } from "lucide-react";
 
@@ -8,7 +7,7 @@ export default function CertoLandingPage() {
       {/* Navigation */}
       <nav className="flex items-center justify-between px-8 py-4 bg-white">
         <div className="flex items-center gap-2">
-          <img src="../../images/logo.svg.png" />
+          <img src="/logo.svg.png" />
         </div>
         <div className="hidden md:flex items-center gap-8">
           <a href="#" className="text-gray-700 hover:text-gray-900">
@@ -34,7 +33,7 @@ export default function CertoLandingPage() {
         <div
           className="absolute inset-0 opacity-10"
           style={{
-            backgroundImage: `../../images/Ellipse 2.png`,
+            backgroundImage: `/Ellipse 2.png`,
           }}
         >
           <div
@@ -65,11 +64,11 @@ export default function CertoLandingPage() {
           </div>
           <div className="relative left-40">
             <img
-              src="../../images/home-header-2.png.png"
+              src="/home-header-2.png.png"
               className="border-t-[20px] border-t-blue-600 border-s-[20px] border-s-blue-600"
             />
             <img
-              src="../../images/android-dashboard-certo-2.png.png "
+              src="/android-dashboard-certo-2.png.png "
               className="absolute top-4 left-4 "
             />
           </div>
@@ -110,22 +109,22 @@ export default function CertoLandingPage() {
           <p className="text-gray-900 font-semibold mb-6">Featured in:</p>
           <div className="flex flex-wrap items-center gap-8 opacity-70">
             <span className="text-2xl font-bold">
-              <img src="../../images/figure (0).png" />
+              <img src="/figure (0).png" />
             </span>
             <span className="text-2xl font-bold">
-              <img src="../../images/figure (1).png" />
+              <img src="/figure (1).png" />
             </span>
             <span className="text-2xl font-bold">
-              <img src="../../images/figure (2).png" />
+              <img src="/figure (2).png" />
             </span>
             <span className="text-2xl font-bold">
-              <img src="../../images/figure (3).png" />
+              <img src="/figure (3).png" />
             </span>
             <span className="text-2xl font-bold">
-              <img src="../../images/figure (4).png" />
+              <img src="/figure (4).png" />
             </span>
             <span className="text-2xl font-bold">
-              <img src="../../images/figure (5).png" />
+              <img src="/figure (5).png" />
             </span>
           </div>
         </div>
@@ -154,7 +153,7 @@ export default function CertoLandingPage() {
           </div>
           <div className="rounded-2xl overflow-hidden shadow-xl">
             <img
-              src="../../images/AdobeStock_350132639-scaled-2.jpeg.png"
+              src="/AdobeStock_350132639-scaled-2.jpeg.png"
               alt="Person using phone"
               className="w-full h-full object-cover"
             />
@@ -170,7 +169,7 @@ export default function CertoLandingPage() {
           </h2>
           <div className="grid md:grid-cols-3 mt-16 shadow-lg rounded-[150px]">
             <div className="bg-white rounded-2xl p-8 text-center flex justify-center items-center flex-col gap-4">
-              <img src="../../images/img-1.png" />
+              <img src="/img-1.png" />
               <h3 className="text-xl font-bold text-gray-900 mb-3">
                 Spyware detection
               </h3>
@@ -181,7 +180,7 @@ export default function CertoLandingPage() {
             </div>
 
             <div className="bg-white rounded-2xl p-8 text-center flex justify-center items-center flex-col gap-4">
-              <img src="../../images/img-2.png" />
+              <img src="/img-2.png" />
               <h3 className="text-xl font-bold text-gray-900 mb-3">
                 Managed detection
               </h3>
@@ -192,7 +191,7 @@ export default function CertoLandingPage() {
             </div>
 
             <div className="bg-white rounded-2xl p-8 text-center flex justify-center items-center flex-col gap-4">
-              <img src="../../images/img-3.png" />
+              <img src="/img-3.png" />
               <h3 className="text-xl font-bold text-gray-900 mb-3">
                 Find tracking apps
               </h3>
@@ -203,7 +202,7 @@ export default function CertoLandingPage() {
             </div>
 
             <div className="bg-white rounded-2xl p-8 text-center flex justify-center items-center flex-col gap-4">
-              <img src="../../images/img-4.png" />
+              <img src="/img-4.png" />
               <h3 className="text-xl font-bold text-gray-900 mb-3">
                 OS security scan
               </h3>
@@ -214,7 +213,7 @@ export default function CertoLandingPage() {
             </div>
 
             <div className="bg-white rounded-2xl p-8 text-center flex justify-center items-center flex-col gap-4">
-              <img src="../../images/img-5.png" />
+              <img src="/img-5.png" />
               <h3 className="text-xl font-bold text-gray-900 mb-3">
                 Network monitoring
               </h3>
@@ -225,7 +224,7 @@ export default function CertoLandingPage() {
             </div>
 
             <div className="bg-white rounded-2xl p-8 text-center flex justify-center items-center flex-col gap-4">
-              <img src="../../images/img-6.png" />
+              <img src="/img-6.png" />
               <h3 className="text-xl font-bold text-gray-900 mb-3">
                 Security settings
               </h3>
@@ -310,7 +309,7 @@ export default function CertoLandingPage() {
                 excerpt:
                   "Concerned about digital stalking by an ex-partner? Here are the key signs to watch out for and steps you can take to secure your devices.",
                 image:
-                  "https://images.unsplash.com/photo-1556745757-8d76bdb6984b?w=400&h=300&fit=crop",
+                  "httpsassets.unsplash.com/photo-1556745757-8d76bdb6984b?w=400&h=300&fit=crop",
               },
               {
                 badge: "Privacy",
@@ -318,7 +317,7 @@ export default function CertoLandingPage() {
                 excerpt:
                   "Removing a hacker from your phone can be complex but it's important to act quickly. Here's what you need to do to regain control.",
                 image:
-                  "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop",
+                  "httpsassets.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop",
               },
               {
                 badge: "Security",
@@ -326,7 +325,7 @@ export default function CertoLandingPage() {
                 excerpt:
                   "It's totally natural to worry if someone has put your phone under surveillance. Here are the tell-tale signs to look out for.",
                 image:
-                  "https://images.unsplash.com/photo-1618044619888-009e412ff12a?w=400&h=300&fit=crop",
+                  "httpsassets.unsplash.com/photo-1618044619888-009e412ff12a?w=400&h=300&fit=crop",
               },
             ].map((article, i) => (
               <div
